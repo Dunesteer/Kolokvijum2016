@@ -19,7 +19,7 @@ Queue::~Queue()
 
 void Queue::Push(int x)
 {
-	if(niz!=nullptr)
+	if(niz!=nullptr&&PripadaNizu(brUpisanih))
 		niz[brUpisanih++] = x;
 }
 

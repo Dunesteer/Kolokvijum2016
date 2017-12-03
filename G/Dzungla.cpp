@@ -6,7 +6,7 @@ using namespace std;
 
 bool Dzungla::Pripada(int i, int j)
 {
-	return i >= 0 && i < n&&j>=0 && j < n;
+	return i >= 0 && i < n&&j >= 0 && j < n;
 }
 
 Dzungla::Dzungla()
@@ -25,11 +25,14 @@ Dzungla::Dzungla(int n)
 	}
 }
 
-
 Dzungla::~Dzungla()
 {
-	for (int i = 0; i < n; i++)
-		delete[]m[i];
+	for (int i = 0; i < n; i++) 
+	{
+		for (int j = 0; j < n; j++)
+			delete m[i][j];
+		delete[] m[i];
+	}
 	delete[]m;
 }
 

@@ -1,7 +1,5 @@
 #include "Queue.h"
 
-
-
 Queue::Queue():Memory()
 {
 	brUpisanih = 0;

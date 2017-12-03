@@ -111,6 +111,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pumpa.h" />
+    <ClInclude Include="Zapis.h" />
+    <ClInclude Include="ZapisOPrekidu.h" />
+    <ClInclude Include="ZapisORadu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pumpa.cpp" />
+    <ClCompile Include="Zapis.cpp" />
+    <ClCompile Include="ZapisOPrekidu.cpp" />
+    <ClCompile Include="ZapisORadu.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

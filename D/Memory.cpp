@@ -18,7 +18,6 @@ Memory::Memory(int n)
 	niz = new int[n];
 }
 
-
 Memory::~Memory()
 {
 	if (niz != nullptr)

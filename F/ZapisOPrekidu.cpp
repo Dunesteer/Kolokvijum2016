@@ -15,4 +15,5 @@ ZapisOPrekidu::ZapisOPrekidu(int s, char* o) : Zapis(s)
 
 ZapisOPrekidu::~ZapisOPrekidu()
 {
+	delete[] opis;
 }

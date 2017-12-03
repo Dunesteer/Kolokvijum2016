@@ -3,6 +3,8 @@
 #include "Biljojedi.h"
 #include "Mesojedi.h"
 #include <cstdlib>
+#include <ostream>
+#include <iostream>
 
 void main()
 {
@@ -36,6 +38,6 @@ void main()
 
 	d->PojediBiljke();
 	d->PojediBiljkojede();
-
+	std::cout << std::endl;
 	d->Print();
 }
